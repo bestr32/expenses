@@ -1,0 +1,12 @@
+.filter-box {
+  width: 100%;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  background: var(--gradient-secondary);
+  text-shadow: 0 0 3px black;
+}
+
+.filter-box h2 {
+  margin: 0.5rem;
+}

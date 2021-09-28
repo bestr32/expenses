@@ -1,0 +1,89 @@
+.expense-form {
+  padding-bottom: 1.2rem;
+}
+
+.expense-form__date {
+  margin-bottom: 0.5em;
+}
+
+.expense-form__date--input {
+  background: none;
+  border: none;
+  color: white;
+  text-shadow: 0 0 3px black;
+  font-size: 1rem;
+}
+
+.expense-form__title--input,
+.expense-form__price--input {
+  background: none;
+  color: white;
+  text-shadow: 0 0 3px black;
+  border: none;
+  padding-left: 0.3rem;
+}
+
+.expense-form__title--input:focus,
+.expense-form__price--input:focus,
+.btn:focus {
+  box-shadow: 0 0 0.5rem 0.2rem black;
+}
+
+.expense-form__title--input {
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-align: center;
+  border: 2px solid white;
+  padding-block: 0.25em;
+  border-radius: 0.5em;
+  width: 100%;
+}
+
+.expense-form__title--input::placeholder,
+.expense-form__price--input::placeholder {
+  color: white;
+}
+
+.expense-form__price {
+  font-size: 1.125rem;
+  margin-block: 1rem;
+  padding-right: 0.4rem;
+}
+
+.expense-form__price--input {
+  font-size: 1.125rem;
+  max-width: 80%;
+  text-align: right;
+}
+
+.btn {
+  border: 3px solid white;
+  background: transparent;
+  padding: 0.3em 1em;
+  color: white;
+  font-size: 1.125em;
+  text-shadow: 0 0 3px black;
+  margin-top: -1rem;
+  filter: drop-shadow(0 0.45rem 0.45rem #222);
+}
+
+.flex-centerize {
+  gap: 1rem;
+}
+
+select {
+  padding: 0.3em 1em;
+  color: white;
+  background: transparent;
+  border: none;
+  font-weight: 700;
+  filter: drop-shadow(0 0 3px black);
+  transform: scale(1.2);
+}
+
+@media screen and (min-width: 630px) {
+  .expense-form__title--input {
+    text-align: left;
+    width: 65%;
+  }
+}
